@@ -1,0 +1,12 @@
+#Fichiers zips et temporaires
+www/tmp/*
+*~
+TODO
+
+#Tous les fichiers cachés
+.*
+#Sauf gitignore
+!.gitignore
+
+#Dossier perso
+www/EDUC-tools/*

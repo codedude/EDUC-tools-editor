@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!--
+Copyright « © » 2015-16 Valentin PARIS
+This file is part of EDUC-tools-editor.
+    EDUC-tools-editor is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    EDUC-tools-editor is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with EDUC-tools-editor. If not, see <http://www.gnu.org/licenses/>.
+-->
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- reset css -->
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="lib/jquery-ui.min.css" />
+
+        <!-- Feuille général -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/project.css" />
+        <link rel="stylesheet" type="text/css" href="css/part.css" />
+        <link rel="stylesheet" type="text/css" href="css/chap.css" />
+        <link rel="stylesheet" type="text/css" href="css/tp.css" />
+
+        <link rel="icon" href="img/favicon.png">
+
+    	<title>EDUC-tools-editor</title>
+    </head>
+    <body>
+        <header id="header">
+            <div id="butt_infoPage" title="Informations">
+            </div>
+            <h1>Outil de création de ressources numériques</h1>
+            <div id="info_dev">
+                <p id="version"></p>
+                <p id="date"></p>
+            </div>
+        </header>
+
+        <!-- Dialog d'infos -->
+        <div id="dialog_infoPage" title="Informations">
+            <p>A remplir</p>
+        </div>
+        <!-- Dialog de confirmation de suppression -->
+        <div id="dialog_del" title="Confirmation de suppression">
+            <p>Étes-vous sûr de vouloir supprimer DÉFINITIVEMENT <span id="dialog_del_txt"></span> ?
+            </p>
+        </div>
+        <!-- Dialog d'écriture (ajout/modif) -->
+        <div id="dialog_edit" title="">
+            <form enctype="multipart/form-data" id="dialog_edit_form">
+                <div id="format_butts" class="hide">
+                    <button id="butt_bold">G</button>
+                    <button id="butt_italic">I</button>
+                    <button id="butt_underline">S</button>
+                    <button id="butt_bigger">+</button>
+                    <button id="butt_smaller">-</button>
+                    <br />
+                    <button id="butt_item">Item</button>
+                    <button id="butt_uitem">uItem</button>
+                    <button id="butt_sup">Exp</button>
+                    <button id="butt_sub">Ind</button>
+                    <button id="butt_nl">Ligne</button>
+                    <br />
+                    <button id="butt_red"></button>
+                    <button id="butt_green"></button>
+                    <button id="butt_blue"></button>
+                </div>
+                <div id="dialog_edit_form_in">
+                </div>
+                <input type="submit" value="Envoyer" />
+            </form>
+        </div>
+        <!-- Dialog d'information -->
+        <div id="dialog_info" title="">
+            <div id="dialog_info_in">
+            </div>
+        </div>
+
+        <div id="pageLoader">
+            <p>Chargement des données...</p>
+            <img src="img/icons/loading.gif" alt="Image chargement animée" />
+        </div>
+
+        <section id="project">
+            <h2>Gérez vos projets : <span id="project_rap"></span></h2>
+            <div>
+                <ul id="project_list">
+                    <li id="project_import">
+                        <span class="listeTitle">Importer</span>
+                    </li>
+                    <li id="project_add">
+                        <span class="listeTitle">Créer</span>
+                    </li>
+                    <!-- Liste des projets chargés ici -->
+                </ul>
+                <div id="project_action">
+                    <span class="export_action"></span>
+                    <span class="edit_action"></span>
+                    <span class="del_action"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="part">
+            <h2>Sélectionnez une partie : <span id="part_rap"></span></h2>
+            <div>
+                <ul id="part_list">
+                    <li id="part_import"><span class="listeTitle">Importer</span>
+                    </li>
+                    <li id="part_add"><span class="listeTitle">Ajouter</span>
+                    </li>
+                    <!-- Liste des parties chargés ici -->
+                </ul>
+                <div id="part_action">
+                    <span class="export_action"></span>
+                    <span class="edit_action"></span>
+                    <span class="del_action"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="chap">
+            <h2>Sélectionnez un chapitre : <span id="chap_rap"></span></h2>
+            <div>
+                <ul id="chap_list">
+                    <li id="chap_import"><span class="listeTitle">Importer</span>
+                    </li>
+                    <li id="chap_add"><span class="listeTitle">Ajouter</span>
+                    </li>
+                    <!-- Liste des chapitres chargés ici -->
+                </ul>
+                <div id="chap_action">
+                    <span class="export_action"></span>
+                    <span class="edit_action"></span>
+                    <span class="del_action"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="tp">
+            <h2>Gestion des ressources</h2>
+            <div>
+                <div id="tp_core">
+                </div>
+
+                <ul id="tp_mod">
+                    <!-- Liste des modules à ajouter -->
+                    <li id="tp_add_titre_mod">
+                         <span class="listeTitle">Titre</span>
+                    </li>
+                    <li id="tp_add_texte_mod">
+                         <span class="listeTitle">Texte</span>
+                    </li>
+                    <li id="tp_add_note_mod">
+                         <span class="listeTitle">Note</span>
+                    </li>
+                    <li id="tp_add_lien_mod">
+                         <span class="listeTitle">Lien web</span>
+                    </li>
+                    <br />
+                    <li id="tp_add_separ_mod">
+                         <span class="listeTitle">Séparation</span>
+                    </li>
+                    <br />
+                    <li id="tp_add_image_mod">
+                         <span class="listeTitle">Image</span>
+                    </li>
+                    <li id="tp_add_video_mod">
+                         <span class="listeTitle">Vidéo</span>
+                    </li>
+                    <li id="tp_add_son_mod">
+                         <span class="listeTitle">Son</span>
+                    </li>
+                    <li id="tp_add_objet_mod">
+                         <span class="listeTitle">Objet</span>
+                    </li>
+                    <li id="tp_add_html_mod">
+                         <span class="listeTitle">Html</span>
+                    </li>
+                    <br />
+                    <li id="tp_add_contact_mod">
+                         <span class="listeTitle">Contact</span>
+                    </li>
+                    <li id="tp_add_source_mod">
+                         <span class="listeTitle">Source</span>
+                    </li>
+                    <li id="tp_add_author_mod">
+                         <span class="listeTitle">Auteur</span>
+                    </li>
+                </ul>
+
+                <div id="tp_contact">
+                    <h3>Contacts :</h3>
+                    <ul id="tp_contact_list">
+
+                    </ul>
+                </div>
+                <div id="tp_source">
+                    <h3>Sources :</h3>
+                    <ul id="tp_source_list">
+
+                    </ul>
+                </div>
+                <div id="tp_author">
+                    <h3>Auteurs :</h3>
+                    <ul id="tp_author_list">
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div id="backtop" title="Retour en haut">
+        </div>
+
+        <footer id="footer">
+            <p>Copyright « © » 2015-16 Valentin PARIS,
+                <a href="http://www.gnu.org/licenses/gpl-3.0.html">GNU GPLv3</a>,
+                 <a href="https://github.com/codedude/EDUC-tools-editor" title="Fork me on GitHub ;)">GitHub</a>
+            </p>
+        </footer>
+
+        <script type="text/javascript" charset="utf-8" src="lib/jquery-2.min.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="lib/jquery-ui.min.js">
+        </script>
+
+        <script type="text/javascript" charset="utf-8" src="inc/js/utils.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/jQueryUtils.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/dialog.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/form.js">
+        </script>
+
+        <script type="text/javascript" charset="utf-8" src="inc/js/inputTP.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/tp.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/chap.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/part.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/project.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/events.js">
+        </script>
+        <script type="text/javascript" charset="utf-8" src="inc/js/app.js">
+        </script>
+    </body>
+</html>

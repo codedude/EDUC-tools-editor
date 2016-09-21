@@ -1,0 +1,242 @@
+/* Source : alsacreation -> part of the reset KNACSS */
+
+/* alternate font-sizing */
+.smaller {
+    font-size: .7143em; /* equiv 10px */
+    line-height: 2.1em;
+}
+
+.small {
+    font-size: .8571em; /* equiv 12px */
+    line-height: 1.75em;
+}
+
+.big {
+    font-size: 1.1429em; /* equiv 16px */
+    line-height: 1.3125em;
+}
+
+.bigger {
+    font-size: 1.2857em; /* equiv 18px */
+    line-height: 1.1667em;
+}
+
+.biggest {
+    font-size: 1.4286em; /* equiv 20px */
+    line-height: 1.05em;
+}
+
+/* base font-size corresponds to 10px and is adapted to rem unit */
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana,arial,sans-serif;
+    font-size: 1.4em; /* equiv 14px */
+    line-height: 1.5; /* adapt to your design */
+    color: #000;
+    background-color: #fff;
+}
+
+/* font-sizing for content */
+
+/* preserve vertical-rythm, thanks to http://soqr.fr/vertical-rhythm/ */
+
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+td,
+th,
+label,
+textarea,
+caption,
+details,
+figure,
+hgroup {
+    margin: 1.5em 0 0;
+    font-size: 1em; /* equiv 14px */
+    line-height: 1.5;
+}
+
+h1,
+.h1-like {
+    margin: .8077em 0 0 0;
+    font-size: 1.8571em; /* equiv 26px */
+    font-weight: normal;
+    line-height: 1.6154em;
+}
+
+h2,
+.h2-like {
+    margin: .875em 0 0 0;
+    font-size: 1.7143em; /* equiv 24px */
+    font-weight: normal;
+    line-height: 1.75em;
+}
+
+h3,
+.h3-like {
+    margin: .9545em 0 0 0;
+    font-size: 1.5714em; /* equiv 22px */
+    font-weight: normal;
+    line-height: 1.909em;
+}
+
+h4,
+.h4-like {
+    margin: 1.05em 0 0 0;
+    font-size: 1.4286em; /* equiv 20px */
+    font-weight: normal;
+    line-height: 1.05em;
+}
+
+h5,
+.h5-like {
+    margin: 1.1667em 0 0 0;
+    font-size: 1.2857em; /* equiv 18px */
+    font-weight: normal;
+    line-height: 1.1667em;
+}
+
+h6,
+.h6-like {
+    margin: 1.3125em 0 0 0;
+    font-size: 1.1429em; /* equiv 16px */
+    font-weight: normal;
+    line-height: 1.3125em;
+}
+
+/* soft reset */
+
+html,
+body,
+textarea,
+figure,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    padding-left: 2em;
+}
+
+code,
+pre,
+samp {
+    font-family: Inconsolata, consolas,'DejaVu Sans Mono',courier,monospace;
+    white-space: pre-wrap;
+}
+
+code {
+    line-height: 1em;
+}
+
+table {
+    margin-bottom: 1.5em;
+}
+
+/* avoid top margins on first content element */
+
+p:first-child,
+ul:first-child,
+ol:first-child,
+dl:first-child,
+blockquote:first-child,
+pre:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0;
+}
+
+/* avoid margins on nested elements */
+
+li p,
+li ul,
+li ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* HTML5 tags */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* max values */
+
+img,
+table,
+td,
+blockquote,
+code,
+pre,
+textarea,
+input,
+video {
+    max-width: 100%;
+}
+
+/* you shall not pass */
+
+div,
+textarea,
+table,
+td,
+th,
+code,
+pre,
+samp {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+}
+
+/* pictures */
+
+img {
+    width: auto;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/* scripts */
+
+body > script {
+    display: none !important;
+}

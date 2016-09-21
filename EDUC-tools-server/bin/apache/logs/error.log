@@ -1,0 +1,185 @@
+[Sat Mar 19 09:36:32.463665 2016] [ssl:warn] [pid 5464:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:36:32.463665 2016] [ssl:warn] [pid 5464:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:36:32.682066 2016] [ssl:warn] [pid 5464:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:36:32.682066 2016] [ssl:warn] [pid 5464:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:36:32.682066 2016] [ssl:warn] [pid 5464:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:36:33.789668 2016] [mpm_winnt:notice] [pid 5464:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Sat Mar 19 09:36:33.789668 2016] [mpm_winnt:notice] [pid 5464:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:36:33.789668 2016] [core:notice] [pid 5464:tid 228] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:36:33.789668 2016] [mpm_winnt:notice] [pid 5464:tid 228] AH00418: Parent: Created child process 5188
+[Sat Mar 19 09:36:34.659670 2016] [ssl:warn] [pid 5188:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:36:34.659670 2016] [ssl:warn] [pid 5188:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:36:34.978070 2016] [ssl:warn] [pid 5188:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:36:34.978070 2016] [ssl:warn] [pid 5188:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:36:34.978070 2016] [ssl:warn] [pid 5188:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:36:34.993670 2016] [mpm_winnt:notice] [pid 5188:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 19 09:39:33.188377 2016] [ssl:warn] [pid 2304:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:39:33.188377 2016] [ssl:warn] [pid 2304:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:39:33.250777 2016] [core:warn] [pid 2304:tid 228] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:39:33.359977 2016] [ssl:warn] [pid 2304:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:39:33.359977 2016] [ssl:warn] [pid 2304:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:39:33.359977 2016] [ssl:warn] [pid 2304:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:39:34.233579 2016] [mpm_winnt:notice] [pid 2304:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:39:34.233579 2016] [mpm_winnt:notice] [pid 2304:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:39:34.233579 2016] [core:notice] [pid 2304:tid 228] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:39:34.249179 2016] [mpm_winnt:notice] [pid 2304:tid 228] AH00418: Parent: Created child process 1116
+[Sat Mar 19 09:39:35.107180 2016] [ssl:warn] [pid 1116:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:39:35.107180 2016] [ssl:warn] [pid 1116:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:39:35.294380 2016] [ssl:warn] [pid 1116:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:39:35.294380 2016] [ssl:warn] [pid 1116:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:39:35.294380 2016] [ssl:warn] [pid 1116:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:39:35.325580 2016] [mpm_winnt:notice] [pid 1116:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 19 09:39:36.401982 2016] [mpm_winnt:crit] [pid 1116:tid 240] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 19 09:44:47.874136 2016] [ssl:warn] [pid 5664:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:44:47.874136 2016] [ssl:warn] [pid 5664:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:44:47.967737 2016] [core:warn] [pid 5664:tid 228] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:44:48.108137 2016] [ssl:warn] [pid 5664:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:44:48.108137 2016] [ssl:warn] [pid 5664:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:44:48.108137 2016] [ssl:warn] [pid 5664:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:44:48.139337 2016] [mpm_winnt:notice] [pid 5664:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:44:48.139337 2016] [mpm_winnt:notice] [pid 5664:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:44:48.139337 2016] [core:notice] [pid 5664:tid 228] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:44:48.154937 2016] [mpm_winnt:notice] [pid 5664:tid 228] AH00418: Parent: Created child process 5492
+[Sat Mar 19 09:44:48.934938 2016] [ssl:warn] [pid 5492:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:44:48.934938 2016] [ssl:warn] [pid 5492:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:44:49.106539 2016] [ssl:warn] [pid 5492:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:44:49.106539 2016] [ssl:warn] [pid 5492:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:44:49.106539 2016] [ssl:warn] [pid 5492:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:44:49.137739 2016] [mpm_winnt:notice] [pid 5492:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 19 09:45:38.262225 2016] [ssl:warn] [pid 876:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:45:38.262225 2016] [ssl:warn] [pid 876:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:45:38.355825 2016] [core:warn] [pid 876:tid 228] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:45:38.480625 2016] [ssl:warn] [pid 876:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:45:38.480625 2016] [ssl:warn] [pid 876:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:45:38.480625 2016] [ssl:warn] [pid 876:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:45:38.480625 2016] [mpm_winnt:notice] [pid 876:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:45:38.480625 2016] [mpm_winnt:notice] [pid 876:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:45:38.480625 2016] [core:notice] [pid 876:tid 228] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:45:38.496225 2016] [mpm_winnt:notice] [pid 876:tid 228] AH00418: Parent: Created child process 4436
+[Sat Mar 19 09:45:39.291827 2016] [ssl:warn] [pid 4436:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:45:39.291827 2016] [ssl:warn] [pid 4436:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:45:39.494627 2016] [ssl:warn] [pid 4436:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:45:39.494627 2016] [ssl:warn] [pid 4436:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:45:39.494627 2016] [ssl:warn] [pid 4436:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:45:39.510227 2016] [mpm_winnt:notice] [pid 4436:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 19 09:46:32.129119 2016] [mpm_winnt:crit] [pid 4436:tid 240] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 19 09:46:40.723135 2016] [ssl:warn] [pid 5340:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:46:40.723135 2016] [ssl:warn] [pid 5340:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:46:40.785535 2016] [core:warn] [pid 5340:tid 228] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:46:40.925935 2016] [ssl:warn] [pid 5340:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:46:40.925935 2016] [ssl:warn] [pid 5340:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:46:40.925935 2016] [ssl:warn] [pid 5340:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:46:40.941535 2016] [mpm_winnt:notice] [pid 5340:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:46:40.941535 2016] [mpm_winnt:notice] [pid 5340:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:46:40.941535 2016] [core:notice] [pid 5340:tid 228] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:46:40.941535 2016] [mpm_winnt:notice] [pid 5340:tid 228] AH00418: Parent: Created child process 2840
+[Sat Mar 19 09:46:41.799537 2016] [ssl:warn] [pid 2840:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:46:41.799537 2016] [ssl:warn] [pid 2840:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:46:42.158337 2016] [ssl:warn] [pid 2840:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:46:42.158337 2016] [ssl:warn] [pid 2840:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 19 09:46:42.158337 2016] [ssl:warn] [pid 2840:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 19 09:46:42.173937 2016] [mpm_winnt:notice] [pid 2840:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 19 09:46:51.674354 2016] [mpm_winnt:crit] [pid 2840:tid 240] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 19 09:46:51.674354 2016] [mpm_winnt:warn] [pid 2840:tid 4] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 19 09:46:51.674354 2016] [mpm_winnt:warn] [pid 2840:tid 244] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 19 09:46:51.674354 2016] [mpm_winnt:warn] [pid 2840:tid 264] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 19 09:46:51.674354 2016] [mpm_winnt:warn] [pid 2840:tid 1000] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 19 09:48:47.098957 2016] [core:warn] [pid 2220:tid 220] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:48:47.254957 2016] [ssl:warn] [pid 2220:tid 220] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:48:47.270557 2016] [mpm_winnt:notice] [pid 2220:tid 220] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:48:47.270557 2016] [mpm_winnt:notice] [pid 2220:tid 220] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:48:47.270557 2016] [core:notice] [pid 2220:tid 220] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:48:47.270557 2016] [mpm_winnt:notice] [pid 2220:tid 220] AH00418: Parent: Created child process 1256
+[Sat Mar 19 09:48:48.393759 2016] [ssl:warn] [pid 1256:tid 232] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:48:48.409359 2016] [mpm_winnt:notice] [pid 1256:tid 232] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 19 09:49:16.505008 2016] [mpm_winnt:crit] [pid 1256:tid 232] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 19 09:50:43.323184 2016] [core:error] [pid 4876:tid 348] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:50:43.433191 2016] [core:warn] [pid 4876:tid 348] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:50:43.648203 2016] [ssl:warn] [pid 4876:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:50:43.655203 2016] [mpm_winnt:notice] [pid 4876:tid 348] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:50:43.655203 2016] [mpm_winnt:notice] [pid 4876:tid 348] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:50:43.655203 2016] [core:notice] [pid 4876:tid 348] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:50:43.665204 2016] [mpm_winnt:notice] [pid 4876:tid 348] AH00418: Parent: Created child process 3136
+[Sat Mar 19 09:50:48.799498 2016] [core:error] [pid 3136:tid 360] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:50:53.559770 2016] [core:error] [pid 3136:tid 360] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:50:53.804784 2016] [ssl:warn] [pid 3136:tid 360] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:50:53.813784 2016] [mpm_winnt:notice] [pid 3136:tid 360] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 19 09:51:57.238412 2016] [mpm_winnt:crit] [pid 3136:tid 360] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 19 09:51:57.238412 2016] [mpm_winnt:warn] [pid 3136:tid 4] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 19 09:52:08.047030 2016] [core:error] [pid 2948:tid 340] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:52:08.186038 2016] [core:warn] [pid 2948:tid 340] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:52:08.409051 2016] [ssl:warn] [pid 2948:tid 340] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:52:08.414051 2016] [mpm_winnt:notice] [pid 2948:tid 340] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:52:08.414051 2016] [mpm_winnt:notice] [pid 2948:tid 340] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:52:08.414051 2016] [core:notice] [pid 2948:tid 340] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:52:08.423052 2016] [mpm_winnt:notice] [pid 2948:tid 340] AH00418: Parent: Created child process 3760
+[Sat Mar 19 09:53:38.853627 2016] [core:error] [pid 6044:tid 348] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:53:38.962828 2016] [core:warn] [pid 6044:tid 348] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:53:39.181228 2016] [ssl:warn] [pid 6044:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:53:39.196828 2016] [mpm_winnt:notice] [pid 6044:tid 348] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:53:39.196828 2016] [mpm_winnt:notice] [pid 6044:tid 348] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:53:39.196828 2016] [core:notice] [pid 6044:tid 348] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:53:39.196828 2016] [mpm_winnt:notice] [pid 6044:tid 348] AH00418: Parent: Created child process 5332
+[Sat Mar 19 09:53:44.235637 2016] [core:error] [pid 5332:tid 368] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:54:30.220918 2016] [core:error] [pid 3688:tid 340] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:54:30.267718 2016] [core:warn] [pid 3688:tid 340] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:54:30.470519 2016] [ssl:warn] [pid 3688:tid 340] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:54:30.486119 2016] [mpm_winnt:notice] [pid 3688:tid 340] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:54:30.486119 2016] [mpm_winnt:notice] [pid 3688:tid 340] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:54:30.486119 2016] [core:notice] [pid 3688:tid 340] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:54:30.486119 2016] [mpm_winnt:notice] [pid 3688:tid 340] AH00418: Parent: Created child process 4900
+[Sat Mar 19 09:54:35.634128 2016] [core:error] [pid 4900:tid 352] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:54:40.501336 2016] [core:error] [pid 4900:tid 352] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:54:40.813337 2016] [ssl:warn] [pid 4900:tid 352] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:54:40.828937 2016] [mpm_winnt:notice] [pid 4900:tid 352] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 19 09:55:00.453771 2016] [core:error] [pid 1876:tid 348] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:55:00.484971 2016] [core:warn] [pid 1876:tid 348] AH00098: pid file C:/Users/Valentin_2/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 19 09:55:00.703372 2016] [ssl:warn] [pid 1876:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:55:00.718972 2016] [mpm_winnt:notice] [pid 1876:tid 348] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Sat Mar 19 09:55:00.718972 2016] [mpm_winnt:notice] [pid 1876:tid 348] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 19 09:55:00.718972 2016] [core:notice] [pid 1876:tid 348] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/UwAmp/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 19 09:55:00.718972 2016] [mpm_winnt:notice] [pid 1876:tid 348] AH00418: Parent: Created child process 4184
+[Sat Mar 19 09:55:05.851381 2016] [core:error] [pid 4184:tid 360] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:55:10.718589 2016] [core:error] [pid 4184:tid 360] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Sat Mar 19 09:55:11.139790 2016] [ssl:warn] [pid 4184:tid 360] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 19 09:55:11.139790 2016] [mpm_winnt:notice] [pid 4184:tid 360] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 21 17:22:06.373652 2016] [core:error] [pid 6912:tid 344] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Wed Sep 21 17:22:06.482852 2016] [core:warn] [pid 6912:tid 344] AH00098: pid file C:/Users/Valentin_2/Desktop/APK-server/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 21 17:22:06.670053 2016] [ssl:warn] [pid 6912:tid 344] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 21 17:22:07.097653 2016] [mpm_winnt:notice] [pid 6912:tid 344] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.19 configured -- resuming normal operations
+[Wed Sep 21 17:22:07.097653 2016] [mpm_winnt:notice] [pid 6912:tid 344] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Sep 21 17:22:07.097653 2016] [core:notice] [pid 6912:tid 344] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\APK-server\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/APK-server/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\APK-server\\bin\\apache\\conf\\httpd.conf'
+[Wed Sep 21 17:22:07.107653 2016] [mpm_winnt:notice] [pid 6912:tid 344] AH00418: Parent: Created child process 7056
+[Wed Sep 21 17:22:07.895255 2016] [core:error] [pid 7056:tid 364] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Wed Sep 21 17:22:08.222855 2016] [core:error] [pid 7056:tid 364] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Wed Sep 21 17:22:08.519256 2016] [ssl:warn] [pid 7056:tid 364] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 21 17:22:08.597256 2016] [mpm_winnt:notice] [pid 7056:tid 364] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 21 17:23:35.869410 2016] [mpm_winnt:crit] [pid 7056:tid 364] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Sep 21 17:23:37.622613 2016] [core:error] [pid 3420:tid 352] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Wed Sep 21 17:23:37.653813 2016] [core:warn] [pid 3420:tid 352] AH00098: pid file C:/Users/Valentin_2/Desktop/APK-server/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 21 17:23:37.841014 2016] [ssl:warn] [pid 3420:tid 352] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 21 17:23:38.137414 2016] [mpm_winnt:notice] [pid 3420:tid 352] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.26 configured -- resuming normal operations
+[Wed Sep 21 17:23:38.137414 2016] [mpm_winnt:notice] [pid 3420:tid 352] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Sep 21 17:23:38.137414 2016] [core:notice] [pid 3420:tid 352] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\APK-server\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/APK-server/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\APK-server\\bin\\apache\\conf\\httpd.conf'
+[Wed Sep 21 17:23:38.137414 2016] [mpm_winnt:notice] [pid 3420:tid 352] AH00418: Parent: Created child process 2072
+[Wed Sep 21 17:35:19.257679 2016] [auth_form:crit] [pid 3508:tid 348] AH02617: You must load mod_session to enable the mod_auth_form functions
+AH00016: Configuration Failed
+[Wed Sep 21 17:35:55.446749 2016] [auth_form:crit] [pid 5844:tid 352] AH02617: You must load mod_session to enable the mod_auth_form functions
+AH00016: Configuration Failed
+[Wed Sep 21 17:36:51.661964 2016] [auth_form:crit] [pid 4592:tid 348] AH02617: You must load mod_session to enable the mod_auth_form functions
+AH00016: Configuration Failed
+[Wed Sep 21 17:37:20.392922 2016] [auth_form:crit] [pid 3332:tid 348] AH02617: You must load mod_session to enable the mod_auth_form functions
+AH00016: Configuration Failed
+[Wed Sep 21 17:38:00.516193 2016] [core:error] [pid 5700:tid 344] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Wed Sep 21 17:38:00.562993 2016] [core:warn] [pid 5700:tid 344] AH00098: pid file C:/Users/Valentin_2/Desktop/APK-server/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 21 17:38:00.750193 2016] [ssl:warn] [pid 5700:tid 344] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 21 17:38:00.750193 2016] [mpm_winnt:notice] [pid 5700:tid 344] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.26 configured -- resuming normal operations
+[Wed Sep 21 17:38:00.750193 2016] [mpm_winnt:notice] [pid 5700:tid 344] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Sep 21 17:38:00.750193 2016] [core:notice] [pid 5700:tid 344] AH00094: Command line: 'C:\\Users\\Valentin_2\\Desktop\\APK-server\\bin\\apache\\bin\\httpd.exe -d C:/Users/Valentin_2/Desktop/APK-server/bin/apache -f C:\\Users\\Valentin_2\\Desktop\\APK-server\\bin\\apache\\conf\\httpd.conf'
+[Wed Sep 21 17:38:00.765793 2016] [mpm_winnt:notice] [pid 5700:tid 344] AH00418: Parent: Created child process 3056
+[Wed Sep 21 17:38:01.311794 2016] [core:error] [pid 3056:tid 360] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Wed Sep 21 17:38:01.592595 2016] [core:error] [pid 3056:tid 360] (OS 11001)Hôte inconnu.  : AH00547: Could not resolve host name 127.0.0.1, -- ignoring!
+[Wed Sep 21 17:38:01.795395 2016] [ssl:warn] [pid 3056:tid 360] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 21 17:38:01.810995 2016] [mpm_winnt:notice] [pid 3056:tid 360] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 21 17:38:04.529603 2016] [:error] [pid 3056:tid 1008] [client ::1:49580] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in C:\\Users\\Valentin_2\\Desktop\\APK-server\\phpapps\\uwamp\\phpinfo.php on line 3
+[Wed Sep 21 17:39:23.537121 2016] [mpm_winnt:crit] [pid 3056:tid 360] AH02538: Child: Parent process exited abruptly. Child process is ending
