@@ -12,8 +12,9 @@ EDUC-tools-editor est une application web à destination des enseignants, permet
 2.	Mettre le dossier racine www/ sur votre serveur
 
 
-Pour les utilisateurs de windows, un mini serveur **portable** et léger préconfiguré avec php5.6 est disponible dans le sous-dossier serveur/.
+Pour les utilisateurs de windows, un mini serveur **portable** et léger préconfiguré avec php5.6 est disponible dans le dossier EDUC-tools-server (serveur [UwAmp]).
 
+[UwAmp]:http://www.uwamp.com/fr/
 > **Note** : Compatible avec tous les navigateurs récents et ***à jours***.
 
 
