@@ -21,7 +21,7 @@ Pour les utilisateurs de windows, un mini serveur **portable** et léger précon
 
 > La version actuelle de l'application est : **1.0.0 (26/09/2016)**
 
-Le numéro de version est composé de 3 chiffre (dans l'ordre) :
+Le numéro de version est composé de 3 chiffres (dans l'ordre) :
 
 1.	Version générale de l'application -> faire une **sauvegarde** des projets avant la mise à jour.
 Les projets exportés seront uniquement compatible avec l'application de même version générale.
