@@ -23,6 +23,8 @@ $(window).load(function() {
 
 
     self.goTo = function (ancre, cb) {
+        if(typeof ancre != 'string')
+            return ;
         if(ancre == 'tp') {
             if(typeof cb == 'function')
                 cb();

@@ -446,9 +446,9 @@ PUBLIC FUN
 			return false;
 
 		if(sens === true)
-			$tp.div.show('slow');
+			$tp.div.show();
 		else
-			$tp.div.hide('slow');
+			$tp.div.hide();
 	};
 	self.moveEl = function (type, num, sens) {
 		var r = _moveEl(type, num, sens);

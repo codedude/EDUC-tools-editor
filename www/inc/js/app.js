@@ -116,7 +116,7 @@ PUBLIC FUN
 			var back = $('#backtop');
 			back.hide();
 			back.click(function () {
-				$('html, body').animate({scrollTop: 0}, 'slow');
+				$('html, body').animate({scrollTop: 0}, 'fast');
 			});
 
 			var win = $(window);
@@ -151,7 +151,7 @@ PUBLIC FUN
 	App.new();
 
 	//dev rapide
-	/*$('#project_1').click();
-	$('#part_0').click();
-	$('#chap_1').click();*/
+	$('#project_1').click();
+	$('#part_1').click();
+	$('#chap_1').click();
 });

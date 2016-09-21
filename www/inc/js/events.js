@@ -135,7 +135,8 @@ PRIVATE FUN
     }
     function clickSelect(mod, num) {
         var r = _module[mod].selectEl(num);
-
+        if (r == false)
+            return ;
         jQueryUtils.goTo(r);
     }
     function clickMove(mod, type, num, sens) {

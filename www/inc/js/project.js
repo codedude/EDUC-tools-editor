@@ -103,10 +103,10 @@ PRIVATE FUN
 	}
 
 	function _showAction () {
-		$project.action.show('slow');
+		$project.action.show();
 	}
 	function _hideAction () {
-		$project.action.hide('slow');
+		$project.action.hide();
 	}
 
 	function _delProjectHTML () {
@@ -277,9 +277,9 @@ PUBLIC FUN
 			return false;
 
 		if(sens === true)
-			$project.div.show('slow');
+			$project.div.show();
 		else
-			$project.div.hide('slow');
+			$project.div.hide();
 	};
 	self.selectEl = function (num) {
 		num = utils.cleanInt(num);

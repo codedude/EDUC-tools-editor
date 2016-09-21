@@ -71,7 +71,7 @@ PRIVATE FUN
 			var $el = $(this);
 
 			//Vide
-			if($el.prop('id').includes('_add')) {
+			if($el.prop('id').indexOf('_add') !== -1) {
 				if($el.next().length == 0) {
 					$el.after($li);
 					return false; //break
@@ -108,8 +108,8 @@ PRIVATE FUN
 		dirs = dirs.split('#');
 
 		$chap.liste.find('li').each(function () {
-			if(($(this).prop('id')).includes('_add') ||
-				($(this).prop('id')).includes('_import'))
+			if(($(this).prop('id')).indexOf('_add') !== -1 ||
+				($(this).prop('id')).indexOf('_import') !== -1)
 				return;
 			$(this).remove();
 		});
@@ -143,10 +143,10 @@ PRIVATE FUN
 	}
 
 	function _showAction () {
-		$chap.action.show('slow');
+		$chap.action.show();
 	}
 	function _hideAction () {
-		$chap.action.hide('slow');
+		$chap.action.hide();
 	}
 
 	function _delChapHTML () {
@@ -335,9 +335,9 @@ PUBLIC FUN
 			return false;
 
 		if(sens === true)
-			$chap.div.show('slow');
+			$chap.div.show();
 		else
-			$chap.div.hide('slow');
+			$chap.div.hide();
 	};
 	self.selectEl = function (num) {
 		num = utils.cleanInt(num);

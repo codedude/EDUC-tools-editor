@@ -110,8 +110,8 @@ This file is part of EDUC-tools-editor.
     float: right;
     border-radius: 3px;
 
-    height: 23px; /* Hauteur fixe, 23 + 2*2px */
-    line-height: 21px; /* -2 = bordure des span */
+    height: 28px; /* Hauteur fixe, 23 + 2*2px */
+    line-height: 26px; /* -2 = bordure des span */
 }
 #tp_core > div section {
     clear: both;
@@ -136,7 +136,7 @@ This file is part of EDUC-tools-editor.
     cursor: pointer;
 }
 .mod_span {
-    margin-left: 0.75em;
+    margin: 0 0 0 0.75em;
 }
 #tp_core > div header h3,
 #tp_contact_list li header h3,
@@ -236,6 +236,7 @@ This file is part of EDUC-tools-editor.
     width: 90%;
     text-align: center;
     display: inline-block;
+    padding-left: 0;
 }
 
 #tp_author_list li,
@@ -243,7 +244,7 @@ This file is part of EDUC-tools-editor.
 #tp_contact_list li {
     padding: 0px;
     margin: 5px 10px;
-    width: auto;
+    width: 46%;
     height: auto;
     text-align: left;
     vertical-align: middle;
@@ -267,10 +268,8 @@ This file is part of EDUC-tools-editor.
 #tp_contact_list table,
 #tp_source_list table,
 #tp_author_list table {
-    min-width: 250px;
-    width: auto;
-    max-width: 350px;
-    margin: 0px;
+    width: 100%;
+    margin: 0;
     border-collapse: collapse;
 }
 
@@ -286,6 +285,7 @@ This file is part of EDUC-tools-editor.
 #tp_source_list li header,
 #tp_author_list li header {
     width: 100%;
+    margin: 0;
 }
 
 /* design des contact */
