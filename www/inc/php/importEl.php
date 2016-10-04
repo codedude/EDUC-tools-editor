@@ -28,14 +28,7 @@ This file is part of EDUC-tools-editor.
 //Récupère les paramètres et les sécurise
     //paramètres obligatoires !
         $params = array();
-        if(!isset($_POST['action'])) {
-            return error('Paramètre action manquant');
-        }
-        $params['action'] = secVar($_POST['action']);
-        $params['action'] = ($params['action'] == 'import')?true:false;
-        if($params['action'] == false) {
-            return error('Paramètre action invalide');
-        }
+
 
         $params['path'] = $rootPath;
         $retid = '';

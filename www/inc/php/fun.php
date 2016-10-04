@@ -15,6 +15,7 @@ This file is part of EDUC-tools-editor.
     You should have received a copy of the GNU General Public License
     along with EDUC-tools-editor. If not, see <http://www.gnu.org/licenses/>.
 */
+
     $rootPath = '../../EDUC-tools';
     $tmpPath = '../../tmp';
 

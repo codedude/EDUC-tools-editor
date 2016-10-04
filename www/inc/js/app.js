@@ -151,7 +151,7 @@ PUBLIC FUN
 	App.new();
 
 	//dev rapide
-	$('#project_1').click();
+	/*$('#project_1').click();
 	$('#part_1').click();
-	$('#chap_1').click();
+	$('#chap_1').click();*/
 });

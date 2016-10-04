@@ -202,6 +202,7 @@ PRIVATE FUN
 
 		if((data = formApp.checkData(data)) !== false) {
 			data['project'] = _currProject;
+
 			return data;
 		}
 
@@ -374,7 +375,7 @@ PUBLIC FUN
 	function _checkSubmitForm () {
 		//data -> key = id de l'input, value = type de regex
 		var data = {
-			'__file' : ['__file', true]
+			'__file' : ['__file', false]
 		};
 
 		if((data = formApp.checkData(data)) !== false) {
