@@ -20,7 +20,7 @@ Pour les utilisateurs de windows, un mini serveur **portable** et léger précon
 
 ## Mise à jour
 
-> La version actuelle de l'application est : **1.0.0 (26/09/2016)**
+> La version actuelle de l'application est : **1.0.0 (11/01/2017)**
 
 Le numéro de version est composé de 3 chiffres (dans l'ordre) :
 

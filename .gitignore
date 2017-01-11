@@ -7,6 +7,7 @@ TODO
 .*
 #Sauf gitignore
 !.gitignore
+*.zip
 
 #Dossier perso
 www/EDUC-tools/*
